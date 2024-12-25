@@ -1,4 +1,7 @@
 import { BsGithub } from "react-icons/bs";
+import { Button  } from "../components/buttonVariants";
+import { SearchBar } from "../components/Searchbar";
+
 const navitems =[
      {'id':"1" , 'title': 'Products'},
      {"id": "2", 'title': "Solutions"},
@@ -15,14 +18,14 @@ export default function Navbar(){
               <BsGithub className="text-3xl cursor-pointer"/>
                 {navitems.map(({id,title}) => {
                     return (
-                        <span className="text-md cursor-pointer" key={id}>{title}</span>
+                        <span className="text-[16px] cursor-pointer font-md " key={id}>{title}</span>
                     )
                 })}
             </div> 
-            <div className="flex px-2 justify-evenly  gap-8 ">
-                <div>searchbar</div>
-                <div>signin</div>
-                <div>signup</div>
+            <div className="flex px-2 items-center justify-evenly  gap-8 ">
+                <SearchBar title="Search or jump to ... "/>
+                <button className="cursor-pointer">signin</button>
+                <Button title={'Sign Up'} size="sm" variant="secondary" />
             </div> 
         </div>
     )
