@@ -18,7 +18,7 @@ const sizeStyles = {
 
 const ButtonVariants = {
   "primary" : ' hover:bg-opacity-90 bg-white text-black',
-  "secondary" : " hover:bg-white/10 bg-transparent text-white border-1 ",
+  "secondary" : " hover:bg-white/10 backdrop-blur-sm text-white border-1 ",
 }
 
 export  function Button(props : ButtonInterface){ 
