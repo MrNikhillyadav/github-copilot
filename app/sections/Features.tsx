@@ -1,10 +1,9 @@
 import { IoIosArrowForward } from "react-icons/io";
-import Image from 'next/image'
-import explain from "../assets/explain.png"
-import gradient from "../assets/gradient.png"
+
 
 export function Features(){
-    return <div className="bg-[rgba(21,26,33,255)] flex-col px-[8rem]  py-[96px] p-2 h-full flex justify-start items-start">
+    return <div className="bg-[rgba(21,26,33,255)] flex-col px-[8rem]  pt-[96px] pb-4 p-2 h-full flex justify-start items-start">
+        {/* title */}
         <div className="flex flex-col text-center gap-8 items-center justify-center">
             <h4 className="border  border-white/30 py-1  gap-2 px-4 font-bold rounded-full">Features</h4>
             <h1 className="text-[64px] leading-[5rem] font-semibold">Customizable.<br className ="md:hidden"/> Contextual.<br className ="hidden md:block"/> 
@@ -15,7 +14,7 @@ export function Features(){
                 src="https://github.githubassets.com/assets/features-breakout-436c5a320c72.mp4"></video>
             </div>
 
-            {/* grid1 */}
+            {/* 1 */}
            <div> 
                 <div className=' w-full grid grid-cols-2  leading-10 my-6 gap-8 '>
                         <div className="grid-cols-8  mr-10 tracking-tight  text-start font-semibold  ">
@@ -38,25 +37,10 @@ export function Features(){
                     </div>
             </div>
         </div>
+
+        {/* 2 */}
         <div className="flex flex-col py-8 items-center justify-start">
             <h1 className="inline-flex gap-2 items-center justify-center text-blue-400 hover:underline underline-offset-4 font-bold text-md">Our favourite Copilot prompts <IoIosArrowForward/> </h1>
-        </div>
-        {/* explain image gradient */}
-        <div style={{
-            backgroundImage :`url(${gradient.src})`,
-            backgroundPosition: 0 ,
-            height: 700,
-        }} className=" inline-flex flex-col justify-center items-center gap-8  w-full rounded-lg  py-8 my-[4rem]">
-
-            <h1 className="text-[3.2rem] tracking-tight font-semibold ">Ask for assistance <br /> right in your terminal</h1>
-            <p className="text-2xl inline-flex gap-4 items-center justify-center  font-semibold">Try copilot in the CLI  <IoIosArrowForward/></p>
-            <Image 
-                    src={explain}
-                    width={900}
-                    height={900}
-                    alt="Picture of the author"
-                    />
-            
         </div>
     </div>
 }
