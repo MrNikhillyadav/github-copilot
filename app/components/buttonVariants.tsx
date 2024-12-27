@@ -13,12 +13,13 @@ interface ButtonInterface{
 
 const sizeStyles = {
   "sm" :"rounded-lg p-1 py-2 text-sm border border-1",
+  "md" :"rounded-md px-4 py-3 text-[14px] font-semibold rounded-lg border-2",
   "lg" :"rounded-lg px-6 py-3 text-[16px] font-semibold rounded-lg border-2",
 }
 
 const ButtonVariants = {
   "primary" : ' hover:bg-opacity-90 bg-white text-black',
-  "secondary" : " hover:bg-white/10 backdrop-blur-sm text-white border-1 ",
+  "secondary" : " hover:bg-white/10 backdrop-blur-sm text-white border-1 border-white/30 ",
 }
 
 export  function Button(props : ButtonInterface){ 

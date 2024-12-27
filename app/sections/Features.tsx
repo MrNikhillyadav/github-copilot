@@ -2,7 +2,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 
 export function Features(){
-    return <div className="bg-[rgba(21,26,33,255)] flex-col px-[8rem]  pt-[96px] pb-4 p-2 h-full flex justify-start items-start">
+    return <div className="bg-[rgba(21,26,33,255)] flex-col px-[8rem]  pt-[96px] pb-4  p-2 h-full flex justify-start items-start">
         {/* title */}
         <div className="flex flex-col text-center gap-8 items-center justify-center">
             <h4 className="border  border-white/30 py-1  gap-2 px-4 font-bold rounded-full">Features</h4>
