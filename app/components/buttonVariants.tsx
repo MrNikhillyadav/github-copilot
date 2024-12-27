@@ -5,7 +5,7 @@ interface ButtonInterface{
   size : "sm" | "md" |"lg";
   startIcon?: ReactElement,
   endIcon?: ReactElement,
-  variant : 'primary'|'secondary'|'submit'|'disable',
+  variant : 'primary'|'secondary',
   onClick?: () => void;
   loading?:boolean
 
