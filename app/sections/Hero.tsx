@@ -4,8 +4,7 @@ import { BiLogoVisualStudio } from "react-icons/bi";
 import { Button  } from "../components/buttonVariants";
 import { SiGithubcopilot } from "react-icons/si";
 import { FaAngleDown } from "react-icons/fa6";
-import FedEx from "../components/FedEx"
-import Image from 'next/image'
+
 
 const miniNavItems = [
     { "id": 1, "title": "Plans"},
