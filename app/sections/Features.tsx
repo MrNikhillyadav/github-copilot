@@ -6,11 +6,11 @@ export function Features(){
         {/* title */}
         <div className="flex flex-col text-center gap-8 items-center justify-center">
             <h4 className="border  border-white/30 py-1  gap-2 px-4 font-bold rounded-full">Features</h4>
-            <h1 className="text-[64px] leading-[5rem] font-semibold">Customizable.<br className ="md:hidden"/> Contextual.<br className ="hidden md:block"/> 
+            <h1 className="text-[32px] md:text-[64px] leading-[5rem] font-semibold">Customizable.<br className ="md:hidden"/> Contextual.<br className ="hidden md:block"/> 
             AI-powerful.</h1>
 
             <div className =" object-scale-down">
-                <video  autoPlay loop muted  width="1248" height="647" className="  overflow-x-clip rounded-3xl mt-10"
+                <video  autoPlay loop muted  width="1248" height="647" className="w-[1248px] h-[647px]  overflow-x-clip rounded-3xl mt-10"
                 src="https://github.githubassets.com/assets/features-breakout-436c5a320c72.mp4"></video>
             </div>
 

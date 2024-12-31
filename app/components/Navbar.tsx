@@ -13,7 +13,7 @@ const navitems =[
 
 export default function Navbar(){
     return (
-        <div className=" flex py-2 md:py-6 px-1 md:max-w-[1480px] m-auto  justify-between items-center">
+        <div className=" flex py-2 md:py-6 px-1  md:max-w-[1480px] m-auto  justify-between items-center">
             <div className=" flex px-2 items-center justify-evenly  gap-8 ">
               <BsGithub className="text-3xl cursor-pointer"/>
                 {navitems.map(({id,title}) => {
