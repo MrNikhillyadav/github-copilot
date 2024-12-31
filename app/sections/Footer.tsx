@@ -23,10 +23,10 @@ export function Footer(){
 
     return (
         <div> 
-            <div className =" bg-black flex-col px-[8rem]  py-[96px] ">
-                <div className=" grid grid-cols-2 gap-16  w-full">
-                    <div className="grid grid-cols-3  gap-16">
-                        <div className="col-span-2  pr-2  ">
+            <div className =" bg-black flex-col px-6 md:px-[8rem]  py-[96px] ">
+                <div className=" grid  grid-cols-1 md:grid-cols-2 gap-16  w-full">
+                    <div className="grid   md:grid-cols-3  gap-16">
+                        <div className="col-span-2 pr-2  ">
                             <h1 className="font-bold pb-8 text-[26px]">GitHub</h1>
                             <div className='flex pb-8 flex-col'>
                                 <p className="text-sm">Subscribe to our developer newsletter</p>
@@ -34,16 +34,23 @@ export function Footer(){
                             </div>
                             <Button title={'Subscribe'} size="md" variant="secondary" />
                         </div>
-                        <div className=" grid gap-3">
+                        <div className="grid gap-3">
                             {col1.map(({id,title}) => {
                                 return (
                                     <span className="  md:block cursor-pointer text-sm font-light text-white/60 hover:underline hover:text-blue-400 " key={id}>{title}</span>
                                 )
                             })}
                         </div>
+                        <div className="md:hidden  flex flex-col gap-3">
+                                {col2.map(({id,title}) => {
+                                    return (
+                                        <span className="  md:block cursor-pointer text-sm font-light text-white/60 hover:underline hover:text-blue-400 " key={id}>{title}</span>
+                                    )
+                                })}
+                        </div>
                     </div>
-                        <div className="  grid grid-cols-3 text-start gap-3">
-                            <div className=" flex flex-col gap-4">
+                        <div className="  grid grid-cols-2 md:grid-cols-3 text-start gap-3">
+                            <div className=" hidden md:flex flex-col gap-4">
                                 {col2.map(({id,title}) => {
                                     return (
                                         <span className="  md:block cursor-pointer text-sm font-light text-white/60 hover:underline hover:text-blue-400 " key={id}>{title}</span>
@@ -67,17 +74,17 @@ export function Footer(){
                     </div>
                 </div>
             </div>
-            <div className ="bg-[rgba(21,26,33,255)] px-[8rem] py-6 text-xs font-thin ">
-                <div className=" text-white/60 font-thinner grid grid-cols-3 gap-2 items-center justify-center ">
+            <div className ="bg-[rgba(21,26,33,255)]  px-4 overflow-x-hidden md:px-[8rem] py-6 text-xs font-thin ">
+                <div className=" text-white/60 font-thinner grid md:grid-cols-3 gap-2 items-center justify-center ">
                        <div className=" col-span-2">
-                            <div className=" flex cursor-pointer   gap-4">
-                                <span className="hover:underline hover:text-blue-400">© 2024 GitHub, Inc.</span>
-                                <span className="hover:underline hover:text-blue-400">Terms</span>
-                                <span className="hover:underline hover:text-blue-400">Privacy (Updated 02/2024)</span>
-                                <span className="hover:underline hover:text-blue-400">Sitemap</span>
-                                <span className="hover:underline hover:text-blue-400">What is Git?</span>
-                                <span className="hover:underline hover:text-blue-400">Manage cookies</span>
-                                <span className="hover:underline hover:text-blue-400">Do not share my personal information</span>
+                            <div className=" md:flex    cursor-pointer md:gap-4">
+                                <span className="hover:underline px-2 md:px-0 hover:text-blue-400">© 2024 GitHub, Inc.</span>
+                                <span className="hover:underline px-2 md:px-0 hover:text-blue-400">Terms</span>
+                                <span className="hover:underline px-2 md:px-0 hover:text-blue-400">Privacy (Updated 02/2024)</span>
+                                <span className="hover:underline px-2 md:px-0 hover:text-blue-400">Sitemap</span>
+                                <span className="hover:underline px-2 md:px-0 hover:text-blue-400">What is Git?</span>
+                                <span className="hover:underline px-2 md:px-0 hover:text-blue-400">Manage cookies</span>
+                                <span className="hover:underline px-2 md:px-0 hover:text-blue-400">Do not share my personal information</span>
                             </div>
                        </div>
                         <div className=" cursor-pointer hover:underline flex gap-1 items-center justify-center text-center ">
