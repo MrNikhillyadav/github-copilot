@@ -6,7 +6,7 @@ import FaQs from "./sections/FaQs";
 
 export default function Home() {
   return (
-    <div>
+    <div className="text-white">
       <Hero/>
       <Features/>
       <Assistance/>
