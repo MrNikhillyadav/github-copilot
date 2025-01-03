@@ -2,11 +2,10 @@
 import {useState} from 'react'
 import { GetContent } from '../components/GetContent';
 
-
 export default function FaQs(){
     const [SelectedContentCategory,setSelectedContentCategory] = useState('General')
 
-    function handleClick(category:'String'){
+    function handleClick(category:string){
         setSelectedContentCategory(category)
     };
 
@@ -18,8 +17,12 @@ export default function FaQs(){
                     <div className=" md:col-span-4 flex flex-col gap-4 pr-8 ">
                         {["General","Plans & Pricing","Privacy","Responsible AI"].map((item,index) =>{
                             return (
-                                <div onClick={() => handleClick(item) } key={index} className="px-4 py-4 text-[#aaaeb6] rounded-md hover:border text-start">
-                                    {item}
+                                <div 
+                                    onClick={
+                                        () => handleClick(item)
+                                     }
+                                    key={index} className="px-4 py-4 text-[#aaaeb6] rounded-md hover:border text-start">
+                                        {item}
                                 </div>
                             );
                         })}
