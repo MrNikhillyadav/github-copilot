@@ -39,7 +39,7 @@ export default function FaQs() {
                     <div className="hidden md:block md:col-span-1 text-[#646c76]"> </div>
                     <div className=" hidden md:flex flex-col col-span-12 md:col-span-7 px-8 rounded-md">
                         <h1 className="md:py-4 text-lg font-semibold text-[#aaaeb6]">{SelectedContentCategory}</h1>
-                        <div className="mt-4 text-start"> 
+                        <div className="mt-4 text-start duration-300"> 
                             <GetContent SelectedContentCategory={SelectedContentCategory} />
                         </div>
                     </div>
