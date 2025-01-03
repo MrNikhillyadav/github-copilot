@@ -14,8 +14,8 @@ export const GetContent = ({SelectedContentCategory}:getContentInterface) => {
                     <div  key={id}>
                         <Accordion type="single" collapsible>
                             <AccordionItem value={`item-${id}`}>
-                                <AccordionTrigger className=" text-white inline-flex justify-between gap-[10rem] text-start md:text-[20px]  ">{trigger}</AccordionTrigger>
-                                <AccordionContent className="text-[#aaaeb6] md:text-[16px] ">
+                                <AccordionTrigger className=" text-white inline-flex justify-between md:gap-[10rem] text-start md:text-[20px]  ">{trigger}</AccordionTrigger>
+                                <AccordionContent className="text-[#aaaeb6] text-[16px] ">
                                     {content}
                                 </AccordionContent>
                             </AccordionItem >
@@ -30,8 +30,8 @@ export const GetContent = ({SelectedContentCategory}:getContentInterface) => {
                     <div  key={id}>
                         <Accordion type="single" collapsible>
                             <AccordionItem value={`item-${id}`}>
-                                <AccordionTrigger className=" text-white inline-flex justify-between gap-[10rem] text-start md:text-[20px] ">{trigger}</AccordionTrigger>
-                                <AccordionContent className="text-[#aaaeb6] md:text-[16px] ">
+                                <AccordionTrigger className=" text-white inline-flex justify-between md:gap-[10rem] text-start md:text-[20px] ">{trigger}</AccordionTrigger>
+                                <AccordionContent className="text-[#aaaeb6] text-[16px] ">
                                     {content}
                                 </AccordionContent>
                             </AccordionItem >
@@ -46,8 +46,8 @@ export const GetContent = ({SelectedContentCategory}:getContentInterface) => {
                     <div  key={id}>
                         <Accordion type="single" collapsible>
                             <AccordionItem value={`item-${id}`}>
-                                <AccordionTrigger className=" text-white inline-flex justify-between gap-[10rem] text-start md:text-[20px] ">{trigger}</AccordionTrigger>
-                                <AccordionContent className="text-[#aaaeb6] md:text-[16px] ">
+                                <AccordionTrigger className=" text-white inline-flex justify-between md:gap-[10rem] text-start md:text-[20px] ">{trigger}</AccordionTrigger>
+                                <AccordionContent className="text-[#aaaeb6] text-[16px] ">
                                     {content}
                                 </AccordionContent>
                             </AccordionItem >
@@ -62,8 +62,8 @@ export const GetContent = ({SelectedContentCategory}:getContentInterface) => {
                     <div  key={id}>
                         <Accordion type="single" collapsible>
                             <AccordionItem value={`item-${id}`}>
-                                <AccordionTrigger className=" text-white inline-flex justify-between gap-[10rem] text-start md:text-[20px] ">{trigger}</AccordionTrigger>
-                                <AccordionContent className="text-[#aaaeb6] md:text-[16px] ">
+                                <AccordionTrigger className=" text-white inline-flex justify-between md:gap-[10rem] text-start md:text-[20px] ">{trigger}</AccordionTrigger>
+                                <AccordionContent className="text-[#aaaeb6] text-[16px] ">
                                     {content}
                                 </AccordionContent>
                             </AccordionItem >
