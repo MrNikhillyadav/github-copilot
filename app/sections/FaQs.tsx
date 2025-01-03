@@ -10,8 +10,8 @@ export default function FaQs() {
     };
 
     const defaultStyle = {
-        "unselected": "px-4 py-3  md:text-[16px] text-[#aaaeb6] rounded-md hover:border text-start",
-        "selected": "px-4 py-3 md:text-[16px] md:bg-white/10 text-white shadow-sm rounded-md hover:border text-start"
+        "unselected": "px-4 py-3 cursor-pointer  md:text-[16px] text-[#aaaeb6] rounded-md nd:hover:border text-start",
+        "selected": "px-4 py-3 cursor-pointer md:text-[16px] md:bg-white/10 text-white shadow-sm rounded-md md:hover:border text-start"
     };
 
     return (
@@ -39,7 +39,7 @@ export default function FaQs() {
                     <div className="hidden md:block md:col-span-1 text-[#646c76]"> </div>
                     <div className=" hidden md:flex flex-col col-span-12 md:col-span-7 px-8 rounded-md">
                         <h1 className="md:py-4 text-lg font-semibold text-[#aaaeb6]">{SelectedContentCategory}</h1>
-                        <div className="mt-4 text-start duration-300"> 
+                        <div className="mt-4 text-start duration-300 cursor-pointer"> 
                             <GetContent SelectedContentCategory={SelectedContentCategory} />
                         </div>
                     </div>
