@@ -16,6 +16,7 @@ export function Footer(){
         {"id":"5", "icon":<FaGithub/>, "to" : "https://github.com/github"},
         {"id":"6", "icon":<FaMedium/>, "to" : "/"},
     ]
+    
     const defaultStyles = { 
         "largeSize" : "text-white/50 text-3xl p-1 ",   
         "default" : "text-white/50 text-xl p-1 ",   
