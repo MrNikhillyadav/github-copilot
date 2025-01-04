@@ -60,7 +60,7 @@ import { GoDiscussionClosed } from "react-icons/go";
   ]
     return (
       <div className="w-[20vw]  bg-transparent rounded-lg  p-4 shadow-xl">
-        <div className=" flex flex-col rounded-lg  bg-white space-y-3">
+        <div className=" flex flex-col rounded-lg   space-y-3">
              <div className="flex  flex-col justify-between "> 
                 {description.map(({id,icon,title,desc}) =>(
                     <div className="flex flex-col gap-2 px-2 py-2 " key={id}> 
@@ -69,11 +69,11 @@ import { GoDiscussionClosed } from "react-icons/go";
                               {icon} 
                             </div>
                             <div> </div>
-                            <div className = "col-span-4 "> 
+                            <div className = "col-span-4  "> 
                               <h1 className =" ">
                                 {title} 
                               </h1>
-                              <p className ="text-sm text-black/50 "> 
+                              <p className ="text-sm text-black/50  "> 
                                 {desc}
                               </p>
                             </div>
