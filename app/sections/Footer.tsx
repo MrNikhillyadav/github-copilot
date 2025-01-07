@@ -24,7 +24,7 @@ export function Footer(){
 
     return (
         <div> 
-            <div className =" bg-black flex-col px-6 md:px-[8rem]  py-[96px] ">
+            <div className =" bg-[#0d1117] flex-col px-6 md:px-[8rem]  py-[96px] ">
                 <div className=" grid  grid-cols-1 md:grid-cols-2 gap-16  w-full">
                     <div className="grid   md:grid-cols-3  gap-16">
                         <div className="col-span-2 pr-2  ">

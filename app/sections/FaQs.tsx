@@ -16,7 +16,7 @@ export default function FaQs() {
 
     return (
         <div>
-            <div className="px-6 bg-[rgba(21,26,33,255)] md:px-[8rem] pt-4 pb-[80px]">
+            <div className="px-6 bg-[#161B22] md:px-[8rem] pt-16 pb-[80px]">
                 <h1 className="text-[28px] mb-16 md:text-[50px] text-white tracking-tight leading-10 md:leading-[54px] font-semibold">
                     Frequently <br className="hidden md:block" /> asked questions
                 </h1>

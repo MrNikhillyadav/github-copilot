@@ -2,9 +2,9 @@ import { IoIosArrowForward } from "react-icons/io";
 
 
 export function Features(){
-    return <div className="bg-[rgba(21,26,33,255)] flex-col md:px-[8rem]  pt-[96px] pb-4  md:p-2 h-full flex md:justify-start md:items-start">
+    return <div className="bg-[rgba(21,26,33,255)] flex-col md:px-[8rem]   pb-4  md:p-2 h-full flex md:justify-start md:items-start">
         {/* title */}
-        <div className="flex flex-col text-center gap-8 items-center justify-center">
+        <div className="flex flex-col text-center gap-8 mt-[14vh] items-center justify-center">
             <h4 className="border  border-white/30 px-4 py-1   gap-0 md:gap-2 md:px-4 font-bold rounded-full">Features</h4>
             <h1 className="text-[32px] md:text-[64px] leading-9 md:leading-[5rem] font-semibold">Customizable.<br className ="md:hidden"/> Contextual.<br className =""/> 
             AI-powerful.</h1>
@@ -19,7 +19,7 @@ export function Features(){
                 <div className=' w-full md:grid md:grid-cols-2 pr-12 px-6 md:px-2 leading-8 md:leading-10 my-4 md:my-6 gap-8 '>
                         <div className="md:grid-cols-8  text-[22px] md:text-[30px] md:mr-10 tracking-tight  text-start font-semibold  ">
                             <h1 className=" md:text-[30px]">Create tests, docs, and more. </h1>
-                            <h2 className=" md:text-[30px] text-white/50">Ask GitHub Copilot a question, get the right answer for you, and accept the code with a single click. </h2>
+                            <h2 className=" md:text-[30px] text-[#6e7681] ">Ask GitHub Copilot a question, get the right answer for you, and accept the code with a single click. </h2>
                             
                         </div>
                         <div className="md:hidden flex flex-col my-4  items-start justify-start">
