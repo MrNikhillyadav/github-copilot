@@ -13,8 +13,8 @@ interface ButtonInterface{
 
 const sizeStyles = {
   "sm" :"rounded-lg p-1 py-2 text-sm border border-1",
-  "md" :"rounded-md px-4 py-3 text-[14px] font-semibold rounded-lg border-2",
-  "lg" :"rounded-lg px-6 py-3 text-[16px] font-semibold rounded-lg border-2",
+  "md" :"rounded-md px-6 py-3 text-[14px] font-semibold rounded-lg border-2",
+  "lg" :"rounded-lg px-8 py-3 text-[16px] font-semibold rounded-lg border-2",
 }
 
 const ButtonVariants = {
