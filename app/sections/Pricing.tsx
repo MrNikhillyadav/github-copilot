@@ -10,8 +10,8 @@ export  function Pricing(){
                 <h1 className="md:text-[64px] font-semibold">Take flight with GitHub Copilot</h1>
             </div>
             {/* cards */}
-            <div className="grid py-4 mt-8 grid-cols-4"> 
-                <div className="card drop-shadow-lg flex flex-col justify-center items-center p-4 rounded-xl hover:bg-[#1d232de7] "> 
+            <div className="grid  py-4 mt-8 grid-cols-4"> 
+                <div className="card drop-shadow-lg  flex flex-col justify-center items-center p-4 rounded-xl hover:bg-[#1d232de7] "> 
                     <h1 className="text-[32px] font-semibold ">Free </h1>
                     <p className="text-[14px] px-6 text-center text-[#8B949E]" > 
                         For developers looking to get started with Github copilot.
