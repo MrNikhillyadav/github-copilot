@@ -51,8 +51,9 @@ const FlyoutLink = ({ children, href, FlyoutContent}:FlyoutInterface) => {
 
   return (
     <div
-      onMouseEnter={() => setOpen(true)}
+      onMouseOver={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
+      
       className="relative w-fit h-fit  ">
       <a href={href} className=" rounded relative text-white">
         {children}

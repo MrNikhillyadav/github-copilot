@@ -1,3 +1,5 @@
+"use client"
+
 import { Button  } from "../components/buttonVariants";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
