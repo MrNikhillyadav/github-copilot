@@ -40,10 +40,11 @@ import {PricingContent} from "./PricingContent"
 }
 
 interface FlyoutInterface {
-  children : any,
-  FlyoutContent : any,
-  href : any
+  children: React.ReactNode,
+  FlyoutContent: React.ComponentType,
+  href: string
 }
+
 
 const FlyoutLink = ({ children, href, FlyoutContent}:FlyoutInterface) => {
   const [open, setOpen] = useState(false);

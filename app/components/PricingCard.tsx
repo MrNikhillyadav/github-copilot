@@ -3,17 +3,17 @@
 import { Button  } from "../components/buttonVariants";
 import { BiLogoVisualStudio } from "react-icons/bi";
 
-interface pricingCardInterface {
-    title : string;
-    topDesc : string;
-    price : string;
-    priceDesc? string;
-    secBtn? : boolean;
-    secDesc? : string;
-    bottomDesc? : string;
-}
+// interface pricingCardInterface {
+//     title : string;
+//     topDesc : string;
+//     price : string;
+//     priceDesc?: string;
+//     secBtn? : boolean;
+//     secDesc? : string;
+//     bottomDesc? : string;
+// }
 
-export function PricingCard(props:pricingCardInterface){
+export function PricingCard(){
     return ( 
             <div className="card drop-shadow-lg  flex flex-col justify-center items-center p-4 rounded-xl hover:bg-[#1d232de7] "> 
                     <h1 className="text-[32px] font-semibold ">Free  </h1>
