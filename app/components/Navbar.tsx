@@ -32,8 +32,8 @@ import {PricingContent} from "./PricingContent"
             </div> 
             <div className="flex px-2 items-center justify-evenly  gap-8 ">
                 <SearchBar  title="Search or jump to ...  "/>
-                <button className="hidden md:block cursor-pointer">signin</button>
-                <Button title={'Sign Up'} size="sm" variant="secondary" />
+                <button className="hidden text-[15px] md:block cursor-pointer">signin</button>
+                <Button endIcon={false} title={'Sign Up'} size="sm" variant="secondary" />
             </div> 
         </div>
     )

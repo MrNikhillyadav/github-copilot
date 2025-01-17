@@ -4,6 +4,7 @@ import { BiLogoVisualStudio } from "react-icons/bi";
 import { Button  } from "../components/buttonVariants";
 import { SiGithubcopilot } from "react-icons/si";
 import { FaAngleDown } from "react-icons/fa6";
+import Link from 'next/link';
 
 
 const miniNavItems = [
@@ -51,8 +52,14 @@ export  function Hero(){
                 </div>
                 <h1 className="text-[36px] md:text-7xl  font-bold text-center px-16 md:px-0 leading-10    tracking-tight">The AI editor for everyone</h1>
                 <div className="flex flex-col md:flex-row gap-4">
-                    <Button title="Get started for free" size="lg" variant={"primary"} />
-                    <Button title="See plans & pricing" size="lg" variant={"secondary"} />
+                    <Link  href = "https://github.com/copilot"
+                           target='_blank'>
+                        <Button  title="Get started for free" size="lg" variant={"primary"} /> 
+                    </Link>
+                    <Link href = "https://github.com/features/copilot/plans"
+                           target='_blank'>
+                        <Button  title="See plans & pricing" size="lg" variant={"secondary"} /> 
+                    </Link>
                 </div>
                 <div className="md:inline-flex text-center  md:flex-row -mt-2 justify-center items-center gap-2">
                     Already have 
