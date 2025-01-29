@@ -4,8 +4,8 @@ import { BiLogoVisualStudio } from "react-icons/bi";
 
 export function Pricing() {
     return (
-        <div className="bg-[#0d1117] flex  flex-col justify-center items-center px-4 md:px-[8rem] md:pb-20">
-            <div className="border border-white/30 py-1 px-2 rounded-full">Pricing</div>
+        <div className="bg-[#0d1117] flex py-4 md:py-0 flex-col justify-center items-center px-4 md:px-[8rem] md:pb-20">
+            <div className="border text-xs md:text-lg border-white/30 py-1 px-2 md:px-4  mb-4 md:mb-0 rounded-full">Pricing</div>
             <div>
                 <h1 className="md:text-[64px] font-semibold">Take flight with GitHub Copilot</h1>
             </div>

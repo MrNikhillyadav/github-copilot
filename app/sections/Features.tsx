@@ -43,7 +43,7 @@ export function Features(){
 
         {/* 2 */}
         <div className="hidden md:flex flex-col py-8 items-center justify-start">
-            <h1 className="inline-flex gap-2 items-center justify-center text-blue-400 hover:underline underline-offset-4 font-bold text-md">Our favourite Copilot prompts <IoIosArrowForward/> </h1>
+            <h1 className="inline-flex gap-2 items-center justify-center text-blue-400 text-[16px]  hover:underline underline-offset-4 font-bold md:text-lg">Our favourite Copilot prompts <IoIosArrowForward/> </h1>
         </div>
     </div>
 }

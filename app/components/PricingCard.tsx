@@ -43,7 +43,7 @@ export function PricingCard({
            </div>
                   
            
-            <div className="flex flex-col  gap-2 px-4 mt-4 "> 
+            <div className="flex flex-col items-center justigy-center gap-2 px-4 mt-4 "> 
                 {primaryButton && (
                     <Link  href = "https://github.com/copilot"
                         target='_blank'>
@@ -64,7 +64,7 @@ export function PricingCard({
                         <div className=" text-[12px]">{additionalText}</div>
                     )}
                     {bottomMostText && (
-                        <p className="text-[#8B949E] text-center text-[12px] md:px-8 ">{bottomMostText}</p>
+                        <p className="text-[#8B949E] text-center text-[12px]  ">{bottomMostText}</p>
                     )}
            </div>
             

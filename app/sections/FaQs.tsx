@@ -17,7 +17,7 @@ export default function FaQs() {
     return (
         <div>
             <div className="px-6 bg-[#161B22] md:px-[8rem] pt-16 pb-[80px]">
-                <h1 className="text-[28px] mb-16 md:text-[50px] text-white tracking-tight leading-10 md:leading-[54px] font-semibold">
+                <h1 className="text-[28px] text-center md:text-start mb-4 md:mb-16 md:text-[50px] text-white tracking-tight md:leading-10 md:leading-[54px] font-semibold">
                     Frequently <br className="hidden md:block" /> asked questions
                 </h1>
                 <div className='grid grid-cols-12 md:py-8'>

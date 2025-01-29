@@ -27,11 +27,11 @@ export  function Hero(){
             <div className="flex mt-4 md:py-2 px-4 max-w-[1480px] m-auto md:items-center  gap-6 md:justify-start ">
                 <div className="flex gap-8 justify-between">
                     <div className=" flex justify-center gap-4 items-center">
-                        <h1 className=" text-[16px] md:text-lg font-bold cursor-pointer">GitHub Copilot </h1>
+                        <h1 className=" text-[14px] md:text-lg font-bold cursor-pointer">GitHub Copilot </h1>
                         <span className="">/</span>
                     </div>
                     <div className=" flex justify-between gap-12 items-center">
-                        <div className="md:hidden">Overview</div>
+                        <div className="md:hidden text-[14px] md:text-lg ">Overview</div>
                         <span><FaAngleDown/></span>
                     </div>
 
@@ -45,13 +45,13 @@ export  function Hero(){
 
             </div>
             {/* Hero Page */}
-            <div className="flex flex-col md:mt-4 py-20 gap-6 justify-center items-center">
-                <div className="border flex justify-center items-center md:gap-4 border-white/30 py-1  gap-2 px-4 font-bold rounded-full">
+            <div className="flex flex-col md:mt-4 py-8 md:py-20 gap-6 justify-center items-center">
+                <div className="border text-[14px] md:text-[16px] flex justify-center items-center md:gap-4 border-white/30 py-1  gap-2 px-4 bg-blur md:font-semibold cursor-pointer hover:bg-white/5 rounded-full">
                     <SiGithubcopilot/>
                     Github copilot is now available for free
                 </div>
-                <h1 className="text-[36px] md:text-7xl  font-bold text-center px-16 md:px-0 leading-10    tracking-tight">The AI editor for everyone</h1>
-                <div className="flex flex-col md:flex-row gap-4">
+                <h1 className="text-[36px] md:text-7xl  font-bold text-center  md:px-0 leading-10  tracking-tight">The AI editor for everyone</h1>
+                <div className="flex flex-col md:flex-row  gap-2 md:gap-4">
                     <Link  href = "https://github.com/copilot"
                            target='_blank'>
                         <Button  title="Get started for free" size="lg" variant={"primary"} /> 
@@ -61,7 +61,7 @@ export  function Hero(){
                         <Button  title="See plans & pricing" size="lg" variant={"secondary"} /> 
                     </Link>
                 </div>
-                <div className="md:inline-flex text-center  md:flex-row -mt-2 justify-center items-center gap-2">
+                <div className="md:inline-flex text-center  text-[14px] md:text-[16px] md:flex-row -mt-2 justify-center items-center gap-2">
                     Already have 
                     <div className="flex gap-2"> 
                         <div className="text-blue-500 text-xl"><BiLogoVisualStudio/> </div> 
@@ -73,7 +73,7 @@ export  function Hero(){
                 </div>
                 {/* video */}
                 <div className="hidden md:flex" >
-                    <video autoPlay loop muted width="1220" height="240" className=" rounded-xl mt-10"
+                    <video autoPlay loop muted width="1220" height="240" className=" rounded-xl md:mt-10"
                     src="https://github.githubassets.com/assets/hero-lg-c3f7fc42e245.mp4">
                     </video>
                 </div>
