@@ -28,13 +28,13 @@ export function Assistance(){
                         />    
             </div>
 
-            <div className='flex  flex-col md:flex-row   my-[2rem] gap-12 text-center items-center justify-between'>
-                <div className=" bg-[#161b22]  py-8 max-w-lg rounded-2xl gap-8 items-center md:items-start justify-center drop-shadow-md md:p-10  flex flex-col ">
+            <div className='flex  flex-col md:flex-row   py-[2rem] gap-12 text-center items-center justify-between'>
+                <div className=" bg-[#161b22]  py-8 max-w-lg rounded-2xl gap-4 md:gap-8 items-center md:items-start justify-center drop-shadow-md md:p-10  flex flex-col ">
                         <div className="w-20 h-20 inline-flex items-center justify-center text-3xl rounded-full bg-blue-600">
                             <HiOutlineDevicePhoneMobile/>
                         </div>
-                        <h1 className='text-[26px] md:text-[40px]  md:text-start font-semibold md:pr-[2rem] leading-10 tracking-tight'>Chat with your AI pair programmer on-the-go</h1>
-                       <div className="flex flex-col md:flex-row w-full  md:gap-1 ">
+                        <h1 className='text-[26px] md:text-[40px]  md:text-start font-semibold md:pr-[2rem] md:leading-10 tracking-tight'>Chat with your AI pair programmer on-the-go</h1>
+                       <div className="flex flex-col md:flex-row w-full items-center gap-1 ">
                         <Image
                                 
                                 src={playstore}
