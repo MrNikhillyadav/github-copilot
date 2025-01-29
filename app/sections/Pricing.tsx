@@ -17,14 +17,14 @@ export function Pricing() {
                     description="For developers looking to get started with GitHub Copilot."
                     price="$10"
                     primaryButton={{ title: "Get started " }}
-                    //@ts-ignore
+                    //@ts-expect-error: Additional text is not typed correctly
                     additionalText={
                         <div className="flex text-center justify-center items-center">
                             <div className="flex">Already have <BiLogoVisualStudio /> VS-Code? 
                             <div className="underline underline-offset-4 px-2  cursor-pointer">Open now</div></div>
                         </div>
                     }
-                    //@ts-ignore
+                    //@ts-expect-error: Additional text is not typed correctly
                     bottomMostText={
                         <span> 
                             Includes up to 2,000 completions and 50 chat requests per month.
@@ -36,7 +36,7 @@ export function Pricing() {
                     description="For developers looking to get started with GitHub Copilot."
                     price="$10"
                     primaryButton={{ title: "Get started " }}
-                    //@ts-ignore
+                    //@ts-expect-error: Additional text is not typed correctly
                     bottomMostText={
                         <> 
                            <span>Free for verified students, teachers, and maintainers of popular open source projects.</span> 
